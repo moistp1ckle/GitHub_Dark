@@ -5,7 +5,6 @@
     * @author Sango
     * @source https://github.com/moistp1ckle/GitHub_Dark
     * @website https://github.com/moistp1ckle
-    * @source 
 **/
 
 :root {
@@ -55,7 +54,7 @@
     --border: 1px solid rgb(48, 54, 61);
     --border-color: rgb(48, 54, 61);
     --blurple-border: 1px solid rgb(31, 47, 71);
-    --border-radius: 6px;
+    --border-radius: 5px;
     --divide-color: var(--brand-experiment);
     --brand-experiment: rgb(88, 101, 242);
     --deprecated-quickswitcher-input-background: var(--channeltextarea-background)
@@ -126,6 +125,14 @@
     background-color: var(--background-secondary-alt);
     border: var(--border);
     border-radius: var(--border-radius);
+}
+
+#MemberCount {
+    border-left: var(--border);
+}
+
+.theme-dark .contentWrapper-3WC1ID {
+    background-color: var(--background-secondary);
 }
 
 .divider-JfaTT5 {--divider-color: var(--divide-color);}
@@ -340,7 +347,7 @@
     background-color: var(--channeltextarea-background);
 }
 
-.channelTextArea-rNsIhG, .detailsBlock-FoDTGA, .container-UC8Ug1, .wrapper-1rqM3x, .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO, .theme-dark .card-3DjzTQ, .getStartedWrapper-2AGgRZ, .settingsFormItem-103g1I, .enableContainer-2DIT9Q, .container-2w0lh0, .checklistContainer-mFJZEJ, .featureCard-1RR4Tl, .developerPortalCtaWrapper-2XNafh, .upsellContainer-L9xv7w, .analyticsCard-qckucw, .descriptionBox-1EKQKL, .theme-dark .copyInput-2rOSt7, .wrapper-18yWki, .theme-dark .auditLog-3jNbM6, .theme-dark .tierHeaderUnlocked-3lTDnP, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .previewContainer-1KQDJS, .memberRow-1wwtfV:hover, .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT), .container-cMG81i, .container-_phMUq, .popout-VcNcHB, .lookFilled-22uAsw.select-2fjwPw, .searchResult-9tQ1uo, .background-1QDuV2, .cardPrimaryOutline-29Ujqw, .accountBtn-2Nozo3 .accountBtnInner-sj5jLs, .connection-1fbD7X, .accountList-33MS45, .theme-dark .feature-2w65J5, .activeGame-14JI7o, .cardWrapper-2Min21, .guild-Hq0WWA, .preview-2nSL_2, .previewMessage-1ZN7YG, .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g, .channelTextArea-2VhZ6z, #bd-editor-panel, .bd-search-wrapper, .input-cIJ7To, .messageGroupWrapper-o-Zw7G, .wrapper-1cBijl, .contentWrapper-SvZHNd, .quickswitcher-3JagVE, .input-2VB9rf , .container-2XeR5Z, .tutorial-3w5I9h, .messages-3G3erD, .messageContainer-gbhlwo, .section-2gLsgF {
+.channelTextArea-rNsIhG, .detailsBlock-FoDTGA, .container-UC8Ug1, .container-2Yth53, .wrapper-1rqM3x, .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO, .theme-dark .card-3DjzTQ, .getStartedWrapper-2AGgRZ, .settingsFormItem-103g1I, .enableContainer-2DIT9Q, .container-2w0lh0, .checklistContainer-mFJZEJ, .featureCard-1RR4Tl, .developerPortalCtaWrapper-2XNafh, .upsellContainer-L9xv7w, .analyticsCard-qckucw, .descriptionBox-1EKQKL, .theme-dark .copyInput-2rOSt7, .wrapper-18yWki, .theme-dark .auditLog-3jNbM6, .theme-dark .tierHeaderUnlocked-3lTDnP, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .previewContainer-1KQDJS, .memberRow-1wwtfV:hover, .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT), .container-cMG81i, .container-_phMUq, .popout-VcNcHB, .lookFilled-22uAsw.select-2fjwPw, .searchResult-9tQ1uo, .background-1QDuV2, .cardPrimaryOutline-29Ujqw, .accountBtn-2Nozo3 .accountBtnInner-sj5jLs, .connection-1fbD7X, .accountList-33MS45, .theme-dark .feature-2w65J5, .activeGame-14JI7o, .cardWrapper-2Min21, .guild-Hq0WWA, .preview-2nSL_2, .previewMessage-1ZN7YG, .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g, .channelTextArea-2VhZ6z, #bd-editor-panel, .bd-search-wrapper, .input-cIJ7To, .messageGroupWrapper-o-Zw7G, .wrapper-1cBijl, .contentWrapper-SvZHNd, .quickswitcher-3JagVE, .input-2VB9rf , .container-2XeR5Z, .tutorial-3w5I9h, .messages-3G3erD, .messageContainer-gbhlwo, .section-2gLsgF {
     border: var(--border);
     border-radius: var(--border-radius);
 }
