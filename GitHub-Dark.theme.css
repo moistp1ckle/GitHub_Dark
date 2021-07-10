@@ -465,3 +465,7 @@
     border: var(--border);
     border-radius: var(--border-radius);
 }
+
+.option-96V44q:after {
+    width: 0px;
+}
