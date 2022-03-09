@@ -506,3 +506,7 @@
     border: var(--border);
     border-radius: var(--border-radius);
 }
+
+.peopleColumn-1wMU14 {
+	background-color: var(--background-primary);
+}
