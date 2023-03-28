@@ -510,15 +510,21 @@
     background: #0d1117;
 }
 /* --------- NEW UPDATE DISCORD 27/03/2023 --------- */
+.theme-dark .themed-Hp1KC_ {
+    background: rgb(13, 17, 23);
+}
 .side-1lrxIh .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl), .topPill-2vcLsa .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl) {
-    background-color: #b1bac41f;
+    background-color: rgba(177, 186, 196, 0.122);
 }
 .theme-dark .children-3xh0VB:after {
-    background: #0d1117;
+    background: rgb(13, 17, 23);
 }
 .side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy, .topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
-    background-color: #171c22;
+    background-color: rgb(23, 28, 34);
 }
 .tabBar-ra-EuL .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1, .tabBar-ra-EuL .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1:hover {
-    background-color: #43b581;
+    background-color: rgb(36, 128, 70);
+}
+.peopleColumn-1wMU14 {
+	background-color: var(--background-primary);
 }
