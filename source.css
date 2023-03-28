@@ -506,3 +506,19 @@
     border: var(--border);
     border-radius: var(--border-radius);
 }
+.theme-dark .themed-Hp1KC_ {
+    background: #0d1117;
+}
+/* --------- NEW UPDATE DISCORD 27/03/2023 --------- */
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl), .topPill-2vcLsa .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl) {
+    background-color: #b1bac41f;
+}
+.theme-dark .children-3xh0VB:after {
+    background: #0d1117;
+}
+.side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy, .topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
+    background-color: #171c22;
+}
+.tabBar-ra-EuL .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1, .tabBar-ra-EuL .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1:hover {
+    background-color: #43b581;
+}
