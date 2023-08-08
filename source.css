@@ -506,3 +506,7 @@
     border: var(--border);
     border-radius: var(--border-radius);
 }
+
+.clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 {
+	background-color: rgb(26, 28, 32);
+}
