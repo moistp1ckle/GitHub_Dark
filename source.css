@@ -1,4 +1,4 @@
-:root .theme-dark, .theme-light, .appMount_fae9dd {
+:root .theme-dark, .theme-light, .appMount_c99875 {
     --blurple-replace: #7289DA;
     --background-primary: rgb(9, 12, 16);
     --background-secondary: rgb(13, 17, 23);
@@ -78,11 +78,11 @@
     --textbox-markdown-syntax: rgb(82, 89, 95);
 }
 
-.menu_dc52c6, .body_ea740e, .container_d6dad3, .option_b5597b, .searchOption__41bc5, .user__97b4c, .container_d6dad3, .calendarPicker__5c474 {
+.menu_dc52c6, .body_bd4552, .container__9f51c, .option_b5597b, .searchOption__3c857, .user__97b4c, .calendarPicker__47c85 {
 	background-color: var(--background-primary) !important;
 }
 
-.searchOption__41bc5:hover, .user__97b4c:hover, .option_b5597b:hover {
+.searchOption__3c857:hover, .user__97b4c:hover, .option_b5597b:hover, .interactive__46c44:hover {
 	background-color: var(--background-modifier-selected) !important;
 }
 
