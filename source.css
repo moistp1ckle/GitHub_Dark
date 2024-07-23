@@ -78,7 +78,7 @@
     --textbox-markdown-syntax: rgb(82, 89, 95);
 }
 
-.menu_dc52c6, .body_b9fccc, .container__9f51c, .option_b0286e, .searchOption_b0286e, .user__97b4c, .calendarPicker_be05cd {
+.menu_dc52c6, .body_b9fccc, .container__9f51c, .container_c1519f, .container_cbd271, .members_cbd271, .member_a31c43, .option_b0286e, .searchOption_b0286e, .user__97b4c, .calendarPicker_be05cd {
 	background-color: var(--background-primary) !important;
 }
 
