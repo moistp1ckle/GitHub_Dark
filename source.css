@@ -86,11 +86,11 @@
 	background-color: var(--background-modifier-selected) !important;
 }
 
-.themed_e44302, .interactive_c0f6a6 {
+.themed_e44302, .interactive_ac5d22 {
 	background-color: var(--background-secondary) !important;
 }
 
-.interactive_f5eb4b:hover, .interactive_c0f6a6:hover {
+.interactive_f5eb4b:hover, .interactive_ac5d22:hover {
 	background-color: var(--background-floating) !important;
 }
 
