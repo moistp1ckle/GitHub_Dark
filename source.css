@@ -116,7 +116,7 @@
 .sidebarRegion_c25c6d, .categoryList_c6ee36, .categoryList_a7a485, #undiscord .sidebar, .container_e462a4 {
   border-right: var(--border);
 }
-.members_cbd271, .searchResultsWrap_c2b47d, .container_e462a4 {
+.searchResultsWrap_c2b47d, .container_e462a4, .container_cbd271 {
   border-left: var(--border);
 }
 .connectionHeader_e2a436, .header_e664f3, .header_c6ee36, .header_d8cdac, #undiscord .header, #undiscord .tbar, .searchHeader_b7c924, .tierHeader_da77bd, .howItWorksImageContainer_aa72d6, .theme-dark .separator_f9a4c9 {
@@ -192,10 +192,6 @@
 
 .placeholderCard_f8c5e7, .cardPrimary_a298b8.editable_a298b8 {
   border-color: var(--border-color);
-}
-
-#MemberCount {
-    border-left: var(--border);
 }
 
 .theme-dark .contentWrapper-3WC1ID, .connection_e2a436, .overlay_b9fccc, .panel_c69a7b.inner_c69a7b, .container_e5da8b, .button_a24e84, .wrapper_f7e168 {
