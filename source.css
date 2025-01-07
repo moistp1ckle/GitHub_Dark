@@ -109,7 +109,7 @@
   --__header-bar-background: transparent;
 }
 
-.searchBar_e0840f, .background_b69b77, .badgeList_b69b77, .container_effbe2, .iconContainer_e677b7, .circle_d7c696, .stepNumber_f70f48, .box_f70f48, .container_c18ec9, .cardPrimary_a298b, .perkCard_d611db,.guildContainer_e0d799, .wrapper_e55051, .container_c1cce6, .paymentPane_f66684, .outer_c69a7b, .overlay_b9fccc, .messageContainer_ddb5b4, .searchBar_a46bef, .tutorial_f1c3d9, .messages_c06487, .button_e258f5, .friendRequestsButton_c0c071, .searchBox_e664f3, .inner_c59af2, .searchBar_c6ee36.container_c18ec9, .contentWrapper_af5dbb, .container_e5da8b, #undiscord .multiInput, #undiscord.container, .searchResult_ddc613, .emojiErrorItem_e52bf8, .tiers_da77bd > .tier_da77bd:not(:first-child), .descriptionBox_c38f8d, .theme-dark .card_ea2a21, .cardPrimary_a298b8.editable_a298b8, .card_ea91d1, .avatarCard_da92c3, .viewServerButton_adff39, .button_a39fe9, .otherRoles_a39fe9, .copyInput_d7e343, .emptyChannelIcon_c2668b, .button_a24e84, .wrapper_f7e168 {
+.searchBar_e0840f, .background_b69b77, .badgeList_b69b77, .container_effbe2, .iconContainer_e677b7, .circle_d7c696, .stepNumber_f70f48, .box_f70f48, .container_c18ec9, .cardPrimary_a298b, .perkCard_d611db,.guildContainer_e0d799, .wrapper_e55051, .container_c1cce6, .paymentPane_f66684, .outer_c69a7b, .overlay_b9fccc, .messageContainer_ddb5b4, .searchBar_a46bef, .tutorial_f1c3d9, .messages_c06487, .button_e258f5, .friendRequestsButton_c0c071, .searchBox_e664f3, .inner_c59af2, .searchBar_c6ee36.container_c18ec9, .contentWrapper_af5dbb, .container_e5da8b, #undiscord .multiInput, #undiscord.container, .searchResult_ddc613, .emojiErrorItem_e52bf8, .tiers_da77bd > .tier_da77bd:not(:first-child), .descriptionBox_c38f8d, .theme-dark .card_ea2a21, .cardPrimary_a298b8.editable_a298b8, .card_ea91d1, .avatarCard_da92c3, .viewServerButton_adff39, .button_a39fe9, .otherRoles_a39fe9, .copyInput_d7e343, .emptyChannelIcon_c2668b, .button_a24e84, .wrapper_f7e168, .button_adcaac .buttonColor_adcaac, .button_adcaac.buttonColor_adcaac {
   border: var(--border);
 }
 
@@ -128,7 +128,7 @@
   box-shadow: none;
 }
 
-.container_b2ca13, .privateChannels_f0963d, .theme-dark .container_ee69e0 {
+.container_b2ca13, .privateChannels_f0963d, .theme-dark .container_ee69e0, .container_adcaac {
     border: var(--border);
     border-bottom: none;
 }
