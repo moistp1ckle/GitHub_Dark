@@ -139,6 +139,12 @@
   box-shadow: none;
 }
 
+.title_a7d72e.container_fc4f04 {
+  border-bottom: var(--border);
+  border-top: var(--border);
+  background: var(--background-secondary) !important;
+}
+
 .resultsGroup-r_nuzN  {
     background-color: var(--background-secondary);
     border-radius: var(--border-radius);
