@@ -1,10 +1,10 @@
 /**
     * @name GitHub Dark
-    * @version 1.2
+    * @version 1.2.1
     * @description A theme based off of the GitHub Dark theme.
     * @author Sango
     * @source https://github.com/moistp1ckle/GitHub_Dark
     * @website https://github.com/moistp1ckle
 **/
 
-@import url('https://raw.githubusercontent.com/moistp1ckle/GitHub_Dark/main/source.css');
+@import url('https://cdn.jsdelivr.net/gh/moistp1ckle/GitHub_Dark/source.css');
