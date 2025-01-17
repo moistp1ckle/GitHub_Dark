@@ -103,13 +103,13 @@
     --primary-700: var(--border-color);
     --activity-card-background: var(--background-secondary-alt);
     --input-background: var(--background-primary);
+    --modal-background: var(--background-floating);
+    --modal-footer-background: var(--background-secondary);
+    --home-background: var(--background-primary);
+    --bg-overlay-chat: var(--background-primary);
 }
 
-.container_fc4f04 {
-  --__header-bar-background: transparent;
-}
-
-.searchBar_e0840f, .background_b69b77, .badgeList_b69b77, .container_effbe2, .iconContainer_e677b7, .circle_d7c696, .stepNumber_f70f48, .box_f70f48, .container_c18ec9, .cardPrimary_a298b, .perkCard_d611db,.guildContainer_e0d799, .wrapper_e55051, .container_c1cce6, .paymentPane_f66684, .outer_c69a7b, .overlay_b9fccc, .messageContainer_ddb5b4, .searchBar_a46bef, .tutorial_f1c3d9, .messages_c06487, .button_e258f5, .friendRequestsButton_c0c071, .searchBox_e664f3, .inner_c59af2, .searchBar_c6ee36.container_c18ec9, .contentWrapper_af5dbb, .container_e5da8b, #undiscord .multiInput, #undiscord.container, .searchResult_ddc613, .emojiErrorItem_e52bf8, .tiers_da77bd > .tier_da77bd:not(:first-child), .descriptionBox_c38f8d, .theme-dark .card_ea2a21, .cardPrimary_a298b8.editable_a298b8, .card_ea91d1, .avatarCard_da92c3, .viewServerButton_adff39, .button_a39fe9, .otherRoles_a39fe9, .copyInput_d7e343, .emptyChannelIcon_c2668b, .button_a24e84, .wrapper_f7e168, .button_adcaac .buttonColor_adcaac, .button_adcaac.buttonColor_adcaac, .bd-search-wrapper {
+.searchBar_e0840f, .background_b69b77, .badgeList_b69b77, .container_effbe2, .iconContainer_e677b7, .circle_d7c696, .stepNumber_f70f48, .box_f70f48, .container_c18ec9, .cardPrimary_a298b, .perkCard_d611db,.guildContainer_e0d799, .wrapper_e55051, .container_c1cce6, .paymentPane_f66684, .outer_c69a7b, .overlay_b9fccc, .messageContainer_ddb5b4, .searchBar_a46bef, .tutorial_f1c3d9, .messages_c06487, .button_e258f5, .friendRequestsButton_c0c071, .searchBox_e664f3, .inner_c59af2, .searchBar_c6ee36.container_c18ec9, .contentWrapper_af5dbb, .container_e5da8b, #undiscord .multiInput, #undiscord.container, .searchResult_ddc613, .emojiErrorItem_e52bf8, .tiers_da77bd > .tier_da77bd:not(:first-child), .descriptionBox_c38f8d, .theme-dark .card_ea2a21, .cardPrimary_a298b8.editable_a298b8, .card_ea91d1, .avatarCard_da92c3, .viewServerButton_adff39, .button_a39fe9, .otherRoles_a39fe9, .copyInput_d7e343, .emptyChannelIcon_c2668b, .button_a24e84, .wrapper_f7e168, .button_adcaac .buttonColor_adcaac, .button_adcaac.buttonColor_adcaac, .bd-search-wrapper, .bd-modal-root, .bd-addon-error, .modeSelected_d8bfb3 .link_d8bfb3, .modeSelected_d8bfb3:hover .link_d8bfb3, .prompt_c6b11b, .perks_fcea2f, .perksList_cf948e, .upsellFooter_a26a1a, .input_f4e139, .interactiveSelected_c91bad {
   border: var(--border);
 }
 
@@ -119,13 +119,17 @@
 .searchResultsWrap_c2b47d, .container_e462a4, .container_cbd271 {
   border-left: var(--border);
 }
-.connectionHeader_e2a436, .header_e664f3, .header_c6ee36, .header_d8cdac, #undiscord .header, #undiscord .tbar, .searchHeader_b7c924, .tierHeader_da77bd, .howItWorksImageContainer_aa72d6, .theme-dark .separator_f9a4c9 {
+.connectionHeader_e2a436, .header_e664f3, .header_c6ee36, .header_d8cdac, #undiscord .header, #undiscord .tbar, .searchHeader_b7c924, .tierHeader_da77bd, .howItWorksImageContainer_aa72d6, .theme-dark .separator_f9a4c9, .bar_f60904, .replyBar_b11c5e {
   border-bottom: var(--border);
   box-shadow: none;
 }
-.footer_ac90a2, .inspector_c3120f, #undiscord .footer, .theme-dark .footerSeparator_f9a4c9, .contentSection_a56260, .rewardDescriptionContainer_c2d7e2 {
+.footer_ac90a2, .inspector_c3120f, #undiscord .footer, .theme-dark .footerSeparator_f9a4c9, .contentSection_a56260, .rewardDescriptionContainer_c2d7e2, .bd-modal-footer, .container_fc4f04, .clipContainer_b11c5e {
   border-top: var(--border);
   box-shadow: none;
+}
+
+.container_fc4f04, .container_cbd271 {
+    background: var(--background-secondary) !important;
 }
 
 .container_b2ca13, .privateChannels_f0963d, .theme-dark .container_ee69e0, .container_adcaac {
@@ -133,8 +137,8 @@
     border-bottom: none;
 }
 
-.privateChannels_f0963d {
-    border-top-left-radius: 10px;
+.privateChannels_f0963d, .container_ee69e0, .header_fd6364, .sidebar_a4d4d9 {
+    border-top-left-radius: 10px !important;
 }
 
 .title_a7d72e, .searchBar_f0963d, .container_fc4f04, .header_fd6364 {
@@ -156,7 +160,12 @@
     border-right: var(--border);
 }
 
-
+.bd-modal-root, .bd-addon-error {
+    border-radius: var(--border-radius);
+}
+.bd-addon-error, .prompt_c6b11b {
+    border-color: var(--border-color) !important;
+}
 
 .actionButton_e01b91, .bioTextArea_ccf27d, .input_f8bc55, .popout_f6639d, .container_a2e886, .container_d7c696, .container_b01337, .accountButtonInner_e2a436 {
   border: var(--border);
@@ -165,7 +174,7 @@
 } .actionButton_e01b91:hover, .embedFull_b0068a, .option_f6639d[aria-selected="true"]:not(.option_f6639d.multi_f6639d), .circle_d7c696, .stepNumber_f70f48, .theme-dark .bottomDivider_f66684, .inner_c69a7b.fullSize_c69a7b, .header_ac90a2, .header_e664f3, #undiscord .header, .searchHeader_b7c924, .tierInProgress_bfac79, .cardHeader_dedfd1, .clickableContainer_e5c5d5, .theme-dark .headerExpanded_eebd33, .categoryHeader_fe2299  {
   background: var(--background-secondary-alt);
 }
-.circleIconButton_db6521, .nowPlayingColumn_c2739c, .container_bf550a, .members_cbd271, .theme-dark .tierHeaderLocked_da77bd, .itemBodyInner_e1b877, .theme-dark .headerDefault_eebd33, .theme-dark .headerClickable_eebd33, .theme-dark .changeDetails_eebd33, .footer_f9a4c9 {
+.circleIconButton_db6521, .nowPlayingColumn_c2739c, .container_bf550a, .members_cbd271, .theme-dark .tierHeaderLocked_da77bd, .itemBodyInner_e1b877, .theme-dark .headerDefault_eebd33, .theme-dark .headerClickable_eebd33, .theme-dark .changeDetails_eebd33, .footer_f9a4c9, .member_cbd271 {
   background: var(--background-secondary);
 }
 
@@ -191,7 +200,7 @@
     border-radius: var(--border-radius);
 }
 
-.skuSelectModalHeader_f92df2 {
+.skuSelectModalHeader_f92df2, .clipContainer_b11c5e {
   border-radius: var(--border-radius)  var(--border-radius) 0 0;
   border-bottom: none;
 }
@@ -234,6 +243,7 @@
 }
 
 
+
 /* BD Styles */
 .bd-addon-list .bd-addon-header {
     border: var(--border);
@@ -264,4 +274,13 @@
     border: var(--border);
     border-top: none;
     border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+.codeContainer_f8f345 svg {
+    color: var(--interactive-normal);
+    cursor: pointer;
+}
+.bd-addon-error-stack code {
+    background: var(--background-primary);
+    border: var(--border);
+    border-radius: var(--border-radius);
 }
